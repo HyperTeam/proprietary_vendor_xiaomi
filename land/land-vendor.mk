@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/land/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/land/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/land/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/land/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
     vendor/xiaomi/land/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/land/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
