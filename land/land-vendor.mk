@@ -48,6 +48,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/land/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/land/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/xiaomi/land/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/land/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/land/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
