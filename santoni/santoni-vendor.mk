@@ -74,8 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb \
     vendor/xiaomi/santoni/proprietary/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb \
     vendor/xiaomi/santoni/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/santoni/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/ov13855_sunny_chromatix.xml:system/etc/camera/ov13855_sunny_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/ov5675_ofilm_chromatix.xml:system/etc/camera/ov5675_ofilm_chromatix.xml \
     vendor/xiaomi/santoni/proprietary/etc/camera/s5k3l8_ofilm_chromatix.xml:system/etc/camera/s5k3l8_ofilm_chromatix.xml \
@@ -266,25 +264,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9714_s5k3l8_riva.so:system/vendor/lib/libactuator_dw9714_s5k3l8_riva.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_dw9763_ov13855.so:system/vendor/lib/libactuator_dw9763_ov13855.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_fp5510e2_ov13855.so:system/vendor/lib/libactuator_fp5510e2_ov13855.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
@@ -305,11 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_preview.so:system/vendor/lib/libchromatix_csidtg_preview.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_ov13855_sunny_common.so:system/vendor/lib/libchromatix_ov13855_sunny_common.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_60.so \
@@ -486,11 +462,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
@@ -535,9 +508,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov13855_qtech.so:system/vendor/lib/libmmcamera_ov13855_qtech.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov13855_qtech_eeprom.so:system/vendor/lib/libmmcamera_ov13855_qtech_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov13855_sunny.so:system/vendor/lib/libmmcamera_ov13855_sunny.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov13855_sunny_eeprom.so:system/vendor/lib/libmmcamera_ov13855_sunny_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ov5675_ofilm.so:system/vendor/lib/libmmcamera_ov5675_ofilm.so \
@@ -548,11 +518,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm_eeprom.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny.so:system/vendor/lib/libmmcamera_s5k5e8_sunny.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_sunny_eeprom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
@@ -583,7 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libnative_audio_latency_jni.so:system/vendor/lib/libnative_audio_latency_jni.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
