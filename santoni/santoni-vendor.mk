@@ -211,26 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/vulkan.msm8937.so:system/vendor/lib/hw/vulkan.msm8937.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -422,14 +402,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libflash_gpio.so:system/vendor/lib/libflash_gpio.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -533,12 +509,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
@@ -579,28 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
-    vendor/xiaomi/santoni/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
