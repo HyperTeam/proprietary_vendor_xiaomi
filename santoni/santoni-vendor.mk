@@ -228,6 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libXMFD_AgeGender.so:system/vendor/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/lib_rsu.so:system/vendor/lib/lib_rsu.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -254,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libcaffe.so:system/vendor/lib/libcaffe.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_ov13855_sunny_common.so:system/vendor/lib/libchromatix_ov13855_sunny_common.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so \
